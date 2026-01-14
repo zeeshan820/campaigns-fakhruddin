@@ -136,7 +136,7 @@ export function VisualTour() {
               src={images[currentIndex].src || "/placeholder.svg"}
               alt={images[currentIndex].alt}
               fill
-              className="object-cover transform transition-transform duration-1000 ease-out group-hover:scale-105 cursor-zoom-in"
+              className="object-cover transform transition-transform duration-1000 ease-out group-hover:scale-105 cursor-pointer"
               onClick={() => openLightbox(currentIndex)}
             />
 

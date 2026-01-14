@@ -130,4 +130,15 @@
   [role="button"] {
     border-radius: 4px;
   }
+
+  /* Make common interactive elements show hand cursor */
+  button,
+  a,
+  input[type="button"],
+  input[type="submit"],
+  [role="button"],
+  .cursor-pointer,
+  .clickable {
+    cursor: pointer;
+  }
 }

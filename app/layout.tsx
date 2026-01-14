@@ -13,7 +13,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Treppan Tower - UAE's First Longevity Living Community | Fakhruddin Properties",
+  title: "Treppan Tower Residences at JVT by Fakhruddin Properties",
   description:
     "Experience Treppan Tower Residences on Dubai Islands. The UAE's first longevity living community with 53+ resort-style amenities, biohacking therapies, and AI-enabled smart homes.",
   // generator: "v0.app",

@@ -109,7 +109,7 @@ export function FloorPlans() {
                 src={plans[currentIndex] || "/placeholder.svg"}
                 alt={`Floor plan ${currentIndex + 1}`}
                 fill
-                className="object-contain p-3 sm:p-4 md:p-6 cursor-zoom-in"
+                className="object-contain p-3 sm:p-4 md:p-6 cursor-pointer"
                 onClick={() => openLightbox(currentIndex)}
                 style={{ zIndex: 2 }}
               />
