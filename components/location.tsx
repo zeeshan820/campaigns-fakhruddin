@@ -107,25 +107,25 @@ export function Location() {
 
           {/* Right side - Landmarks, Amenities, Transport tabs */}
           <div className="space-y-6 order-1 lg:order-2">
-            <div className="flex gap-1 sm:gap-2 md:gap-3 bg-white rounded-xl p-1 sm:p-2 shadow-md overflow-x-auto">
+            <div className="flex gap-1 sm:gap-2 md:gap-3 bg-white rounded-xl p-1 sm:p-2 shadow-md flex-wrap">
               <Button
                 onClick={() => setActiveTab("landmark")}
                 variant={activeTab === "landmark" ? "default" : "ghost"}
-                className={`flex-1 min-w-[90px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "landmark" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
+                className={`flex-1 sm:min-w-[90px] min-w-[64px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "landmark" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
               >
                 Landmarks
               </Button>
               <Button
                 onClick={() => setActiveTab("amenities")}
                 variant={activeTab === "amenities" ? "default" : "ghost"}
-                className={`flex-1 min-w-[90px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "amenities" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
+                className={`flex-1 sm:min-w-[90px] min-w-[64px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "amenities" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
               >
                 Amenities
               </Button>
               <Button
                 onClick={() => setActiveTab("transport")}
                 variant={activeTab === "transport" ? "default" : "ghost"}
-                className={`flex-1 min-w-[90px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "transport" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
+                className={`flex-1 sm:min-w-[90px] min-w-[64px] transition-all duration-300 text-xs md:text-sm py-4 md:py-5 ${activeTab === "transport" ? "bg-[#334058] hover:bg-[#2c4460] text-white shadow-md" : "text-gray-700 hover:bg-gray-100"}`}
               >
                 Transport
               </Button>

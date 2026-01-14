@@ -13,12 +13,10 @@ export function Hero({ isGlobalPage }: { isGlobalPage?: boolean }) {
   // const [brochureOpen, setBrochureOpen] = useState(false);
   const tabs = isGlobalPage ? [
     { value: "14+", label: "Resort Amenities" },
-    { value: "12&nbsp;Min.", label: "From Beach" },
     { value: "$ 313K", label: "Premium Residences" },
     { value: "1, 2 & 3 BR", label: "Fully furnished" },
   ] : [
     { value: "14+", label: "Resort Amenities" },
-    { value: "12&nbsp;Min.", label: "From Beach" },
     { value: "AED 1.15M", label: "Premium Residences" },
     { value: "1, 2 & 3 BR", label: "Fully furnished" },
   ];
@@ -30,7 +28,7 @@ export function Hero({ isGlobalPage }: { isGlobalPage?: boolean }) {
   return (
     <section className="relative flex items-center justify-center overflow-hidden py-20 md:py-20 lg:py-0 lg:h-screen">
       <div
-        className="absolute inset-0 bg-cover bg-center transition-transform duration-12000 ease-out scale-110"
+        className="absolute inset-0 bg-cover bg-[position:25%_center] md:bg-center transition-transform duration-12000 ease-out scale-110"
         style={{
           backgroundImage: "url('/treppantower-hero-banner.jpg')",
           transform: isVisible ? "scale(1)" : "scale(1.2)",
