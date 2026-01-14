@@ -12,13 +12,13 @@ export function Hero({ isGlobalPage }: { isGlobalPage?: boolean }) {
 
   // const [brochureOpen, setBrochureOpen] = useState(false);
   const tabs = isGlobalPage ? [
-    { value: "53+", label: "Resort Amenities" },
-    { value: "90&nbsp;Sec.", label: "From Beach" },
-    { value: "$ 790K", label: "Premium Residences" },
+    { value: "14+", label: "Resort Amenities" },
+    { value: "12&nbsp;Min.", label: "From Beach" },
+    { value: "$ 313K", label: "Premium Residences" },
     { value: "1, 2 & 3 BR", label: "Fully furnished" },
   ] : [
-    { value: "53+", label: "Resort Amenities" },
-    { value: "90&nbsp;Sec.", label: "From Beach" },
+    { value: "14+", label: "Resort Amenities" },
+    { value: "12&nbsp;Min.", label: "From Beach" },
     { value: "AED 1.15M", label: "Premium Residences" },
     { value: "1, 2 & 3 BR", label: "Fully furnished" },
   ];
@@ -103,7 +103,7 @@ export function Hero({ isGlobalPage }: { isGlobalPage?: boolean }) {
           </ExpressInterestModal> */}
           <Modal
             title="Download Brochure"
-            pdfUrl="/Treppan-Serenique-Brochure.pdf"
+            pdfUrl="/Treppan-Tower-Brochure.pdf"
           />
           <Modal
             title="Express Interest"

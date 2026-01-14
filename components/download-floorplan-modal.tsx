@@ -240,7 +240,7 @@ interface DownloadFloorPlanModalProps {
 
 export function DownloadFloorPlanModal({
   children,
-  pdfUrl = "/Treppan-Serenique-Brochure.pdf",
+  pdfUrl = "/Treppan-Tower-Brochure.pdf",
   headingText = "Download Floor Plan"
 }: DownloadFloorPlanModalProps) {
   const [isOpen, setIsOpen] = useState(false);

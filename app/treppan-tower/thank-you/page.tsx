@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { CheckCircle, Download, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
-const PDF_URL = '/Treppan-Serenique-Brochure.pdf';
+const PDF_URL = '/Treppan-Tower-Brochure.pdf';
 
 const ThankYouPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,7 +17,7 @@ const ThankYouPage = () => {
     const timer = setTimeout(() => {
       const link = document.createElement('a');
       link.href = PDF_URL;
-      link.download = 'Treppan-Serenique-Brochure.pdf';
+      link.download = 'Treppan-Tower-Brochure.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

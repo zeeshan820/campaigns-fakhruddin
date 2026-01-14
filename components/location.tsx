@@ -90,9 +90,9 @@ export function Location() {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-2 sm:gap-3 md:gap-4">
               {[
-                { label: "Beach", value: "2 min" },
-                { label: "Airport", value: "23 min" },
-                { label: "Downtown", value: "20 min" },
+                { label: "Beach", value: "12 min" },
+                { label: "Airport", value: "22 min" },
+                { label: "Business Bay", value: "28 min" },
               ].map((stat, index) => (
                 <div
                   key={index}

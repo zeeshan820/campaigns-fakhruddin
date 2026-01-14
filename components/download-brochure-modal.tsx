@@ -121,11 +121,11 @@ export function DownloadBrochureModal({
               const link = document.createElement('a');
               link.href = selectedPdf;
               link.target = '_blank';
-              link.download = 'Treppan-Serenique-Brochure.pdf';
+              link.download = 'Treppan-Tower-Brochure.pdf';
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
-              
+
               // Close modal after short delay
               setTimeout(() => {
                 setIsModalOpen(false);

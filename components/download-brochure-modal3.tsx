@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { Button } from "@/components/ui/button";
 
-export function DownloadBrochureModal3({ children, pdfUrl = "/Treppan-Serenique-Brochure.pdf", headingText = "Download Brochure" }: { children?: React.ReactNode, pdfUrl?: string, headingText?: string }) {
+export function DownloadBrochureModal3({ children, pdfUrl = "/Treppan-Tower-Brochure.pdf", headingText = "Download Brochure" }: { children?: React.ReactNode, pdfUrl?: string, headingText?: string }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [scriptLoaded, setScriptLoaded] = useState(false);
   const [formLoading, setFormLoading] = useState(true);
@@ -71,7 +71,7 @@ export function DownloadBrochureModal3({ children, pdfUrl = "/Treppan-Serenique-
               const link = document.createElement('a');
               link.href = selectedPdf;
               link.target = '_blank';
-              link.download = 'Treppan-Serenique-Brochure.pdf';
+              link.download = 'Treppan-Tower-Brochure.pdf';
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);

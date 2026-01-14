@@ -91,7 +91,7 @@ export function CallToAction() {
               <Modal title="Book a meeting" />
             </div>
             <div className="w-full sm:w-auto flex justify-center">
-              <Modal title="Download Brochure" pdfUrl="/Treppan-Serenique-Brochure.pdf" />
+              <Modal title="Download Brochure" pdfUrl="/Treppan-Tower-Brochure.pdf" />
             </div>
           </div>
         </div>
