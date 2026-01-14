@@ -109,7 +109,7 @@ export function Hero({ isGlobalPage }: { isGlobalPage?: boolean }) {
         </div>
 
         
-        <div className="mt-10 sm:mt-16 grid grid-cols-1 sm:grid-cols-4 gap-4 sm:gap-8 max-w-5xl mx-auto animate-fade-in animation-delay-800 itemscenter justify-center place-items-center">
+        <div className="mt-10 sm:mt-16 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-8 max-w-5xl mx-auto animate-fade-in animation-delay-800 items-center justify-center place-items-center">
           {tabs.map((stat, index) => (
             <div key={index} className="group">
               <div className="glass-effect rounded-lg p-4 sm:p-6 transform hover:scale-105 transition-all duration-500 hover:bg-white/15">
