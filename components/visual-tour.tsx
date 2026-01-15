@@ -50,7 +50,7 @@ export function VisualTour() {
     { src: "/Treppan-Tower-interior-4.webp", alt: "Interior - 3 BR -Bedroom" },
     { src: "/Treppan-Tower-interior-5.webp", alt: "Interior - 3 BR - Dining Area" },
     { src: "/Treppan-Tower-interior-6.webp", alt: "Interior - 3 BR - Bathroom" },
-    { src: "/Treppan-Tower-interior-7.webp", alt: "Interior - 32 BR - Dining Area" },
+    { src: "/Treppan-Tower-interior-7.webp", alt: "Interior - 3 BR - Dining Area" },
     { src: "/Treppan-Tower-interior-8.webp", alt: "Interior - 3 BR Living Room" },
     { src: "/Treppan-Tower-interior-9.webp", alt: "Interior - 3 BR Interance Lobby" },
     // { src: "/Interior-10.webp", alt: "Interior View 10" },
