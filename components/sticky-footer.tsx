@@ -10,7 +10,7 @@ import { Modal } from './form-modals/common-form-modal';
 
 export default function StickyFooter() {
   const pathname = usePathname();
-  const isGlobalPage = typeof pathname === 'string' && pathname.startsWith("/treppan-tower/international");
+  const isGlobalPage = typeof pathname === 'string' && pathname.startsWith("/treppan-tower/global");
   const price = isGlobalPage ? "$ 313K" : "AED 1.15M";
 
   // Always show the sticky footer, even at the top (hero section)
